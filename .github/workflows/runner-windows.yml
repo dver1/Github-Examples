@@ -1,4 +1,4 @@
-name: Windows Workflow Example
+name: Windows Workflow Examples
 
 on:
   push:
