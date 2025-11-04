@@ -1,29 +1,31 @@
-# Github-Examples
-A repo containing GitHub for programmatic examples
+# GitHub Examples
 
-# Github Examples
-A collection of GitHub Actions and CI/CD examples for learning and experimentation.
-
-## Features
-
-- Scheduled workflows
-- Manual triggers
-- Basic shell commands
-- GitHub Actions syntax
-
-## Getting Started
-
-Clone the repo and run the workflows manually or wait for scheduled triggers.
-
-```bash
-git clone https://github.com/dver1/Github-Examples.git
-
+Welcome to the **GitHub Examples** repository! This project contains sample workflows and configurations to help you understand and experiment with GitHub Actions and other GitHub features.
 
 ---
 
-### ✅ **2. Añadir Badges**
-Los badges ayudan a que GitHub detecte que el proyecto tiene actividad y CI/CD configurado. Ejemplo:
+## 🚀 Purpose
 
-```markdown
-!GitHub Workflow Status
+This repository serves as a sandbox for testing and demonstrating:
 
+- Scheduled workflows using cron expressions
+- Manual workflow triggers (`workflow_dispatch`)
+- Basic shell commands in GitHub Actions
+- GitHub Actions configuration and behavior
+
+---
+
+## 📁 Structure
+
+- `.github/workflows/schedule.yml`: A workflow that runs every 5 minutes and can also be triggered manually.
+- `README.md`: This file, providing documentation and usage instructions.
+
+---
+
+## ⚙️ How to Use
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/dver1/Github-Examples.git
+cd Github-Examples
