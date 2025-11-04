@@ -1,6 +1,9 @@
+name: Scheduled Hello World
+
 on:
   schedule:
-    - cron: '*/2 * * * *'
+    - cron: '*/5 * * * *'  # Runs every 5 minutes
+  workflow_dispatch:       # Allows manual execution
 
 jobs:
   hello_world:
